@@ -147,11 +147,13 @@ public class Window extends javax.swing.JFrame {
     }                                      
 
     private void MultiplicarActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        // TODO add your handling code here:
+        double multiply = Calculate.multiply(Num1.getText(), Num2.getText());
+        jTextField3.setText(multiply+"");
     }                                           
 
     private void DividirActionPerformed(java.awt.event.ActionEvent evt) {                                        
-        // TODO add your handling code here:
+        double division = Calculate.division(Num1.getText(), Num2.getText());
+        jTextField3.setText(division+"");
     }                                       
 
     private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {                                            
