@@ -136,11 +136,13 @@ public class Ventana extends javax.swing.JFrame {
     }                                    
 
     private void SumarActionPerformed(java.awt.event.ActionEvent evt) {                                      
-        // TODO add your handling code here:
+    	double sum = Calculate.add(Num1.getText(), Num2.getText());
+    	jTextField3.setText(sum+""); 
+    	
     }                                     
 
     private void RestarActionPerformed(java.awt.event.ActionEvent evt) {                                       
-        // TODO add your handling code here:
+
     }                                      
 
     private void MultiplicarActionPerformed(java.awt.event.ActionEvent evt) {                                            
