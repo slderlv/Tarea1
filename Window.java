@@ -136,13 +136,14 @@ public class Window extends javax.swing.JFrame {
     }                                    
 
     private void SumarActionPerformed(java.awt.event.ActionEvent evt) {                                      
-    	double sum = Calculate.add(Num1.getText(), Num2.getText());
+    	double sum = Calculate.sum(Num1.getText(), Num2.getText());
     	jTextField3.setText(sum+""); 
     	
     }                                     
 
     private void RestarActionPerformed(java.awt.event.ActionEvent evt) {                                       
-
+        double rest = Calculate.rest(Num1.getText(), Num2.getText());
+        jTextField3.setText(rest+"");
     }                                      
 
     private void MultiplicarActionPerformed(java.awt.event.ActionEvent evt) {                                            
